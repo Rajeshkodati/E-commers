@@ -1,4 +1,4 @@
-let inner = document.querySelector('.angel');
+/* let inner = document.querySelector('.angel');
 let li = document.querySelectorAll('.innernav');
 inner.addEventListener('click',function(){
    document.querySelector('#inner_nav').style.display= 'block';
@@ -26,3 +26,41 @@ function renderData(data){
     }
    
 }
+ */
+$(document).ready(function(){
+    $.ajax({
+        type:"GET",
+        url:"http://localhost:3000/mommy",
+        success:function(outerData){
+           renderData(outerData);
+        }
+    })
+    $('.inner_menu').click(function(){
+    $('#inner_nav').css({display:'block'});
+    });
+    $('.innernav').click(function(){
+        $.ajax({
+            type:"GET",
+            url:"http://localhost:3000/mommy",
+            success:function(outerData){
+               renderData(outerData);
+            }
+        })
+    });
+
+})
+function renderData(data,event){
+    console.log(data.men)
+     data.men.map(loadImage => 
+        $('#inner_cont').append(`<div id=${loadImage.id}><img src='${loadImage.img}'></div>`));
+        $('.innernav').off('click');
+       
+    
+    // for(let i=0; i<data.length; i++){
+    //     console.log(data.length)
+    //         $('#inner_cont').append(`<div id=${data[i].id}><img src='${data[i].img}'></div>`); 
+    // $('.innernav').hide(200);
+                         
+    // }
+    
+} 
