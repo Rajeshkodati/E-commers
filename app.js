@@ -28,13 +28,13 @@ function renderData(data){
 }
  */
 $(document).ready(function(){
-    $.ajax({
-        type:"GET",
-        url:"http://localhost:3000/mommy",
-        success:function(outerData){
-           renderData(outerData);
-        }
-    })
+    // $.ajax({
+    //     type:"GET",
+    //     url:"http://localhost:3000/mommy",
+    //     success:function(outerData){
+    //        renderData(outerData);
+    //     }
+    // })
     $('.inner_menu').click(function(){
     $('#inner_nav').css({display:'block'});
     });
@@ -43,12 +43,18 @@ $(document).ready(function(){
             type:"GET",
             url:"http://localhost:3000/mommy",
             success:function(outerData){
+
                renderData(outerData);
             }
         })
     });
 
 })
+
+$('body').on('click', '.men', function() {
+    renderData('men');
+})
+
 function renderData(data,event){
     console.log(data.men)
      data.men.map(loadImage => 
