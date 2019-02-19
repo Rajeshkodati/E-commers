@@ -15,5 +15,179 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "mommy": {
+    "men":[
+      {
+        "id": 1,
+        "img": ".assets/1.jpg",
+        "title": "t-shirts"
+      },
+      {
+        "id": 2,
+        "img": "./assets/2.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 3,
+        "img": "./assets/3.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 4,
+        "img": "./assets/4.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 5,
+        "img": "./assets/8.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 6,
+        "img": "./assets/5.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 7,
+        "img": "./assets/6.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 8,
+        "img": "./assets/7.png",
+        "title": "t-shirts"
+      }
+     
+    ],
+    "women":[
+      {
+        "id": 1,
+        "img": "./assets/1.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 2,
+        "img": "./assets/1.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 3,
+        "img": "./assets/1.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 4,
+        "img": "./assets/4.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 5,
+        "img": "./assets/8.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 6,
+        "img": "./assets/5.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 7,
+        "img": "./assets/6.png",
+        "title": "t-shirts"
+      },
+      {
+        "id": 8,
+        "img": "./assets/7.png",
+        "title": "t-shirts"
+      }    
+      ],
+      "baby":[
+        {
+          "id": 1,
+          "img": "./assets/1.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 2,
+          "img": "./assets/1.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 3,
+          "img": "./assets/1.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 4,
+          "img": "./assets/4.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 5,
+          "img": "./assets/8.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 6,
+          "img": "./assets/5.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 7,
+          "img": "./assets/6.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 8,
+          "img": "./assets/7.png",
+          "title": "t-shirts"
+        }
+      ],
+      "all":[
+        {
+          "id": 1,
+          "img": "./assets/1.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 2,
+          "img": "./assets/1.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 3,
+          "img": "./assets/1.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 4,
+          "img": "./assets/4.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 5,
+          "img": "./assets/8.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 6,
+          "img": "./assets/5.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 7,
+          "img": "./assets/6.png",
+          "title": "t-shirts"
+        },
+        {
+          "id": 8,
+          "img": "./assets/7.png",
+          "title": "t-shirts"
+        }
+      ]
+  
+  
   }
+
 }
