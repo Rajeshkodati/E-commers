@@ -41,115 +41,55 @@ function renderData(data){
         });
        }
      }
- */ let type;
+ */ 
 $(document).ready(function(){
-     type = ['men','women','baby','all'];
-    // $.ajax({
-    //     type:"GET",
-    //     url:"http://localhost:3000/mommy",
-    //     success:function(outerData){
-    //        renderData(outerData);
-    //     }
-    // })
     $('.inner_menu').click(function(){
-    $('#inner_nav').css({display:'block'});
+        $('#inner_nav').css({display:'block'});
+
     });
-       
-    $('.men').click(function(){
+
+    $('.catagory').on('click',function(){
+        const categoryType = $(this).data('type')
+        //console.log($(this).data())
+        getCategoryData(categoryType,renderData); 
+    });
+
+    function getCategoryData(category, callback){
+        
         $.ajax({
             type:"GET",
             url:"http://localhost:3000/mommy",
             success:function(outerData){
-
-                renderMenData(outerData);
+                callback(outerData[category],category);
+                console.log(outerData[category])
             }
-        })
-    });
-    $('.women').click(function(){
-        $.ajax({
-            type:"GET",
-            url:"http://localhost:3000/mommy",
-            success:function(outerData){
+        });
+    }
 
-                renderWomenData(outerData);
-            }
-        })
-    });
-    $('.all').click(function(){
-        console.log("this");
-        $.ajax({
-            type:"GET",
-            url:"http://localhost:3000/mommy",
-            success:function(outerData){
-
-                renderAllData(outerData);
-            }
-        })
-    });
-    $('.baby').click(function(){
-        console.log("this");
-        $.ajax({
-            type:"GET",
-            url:"http://localhost:3000/mommy",
-            success:function(outerData){
-
-                renderBabyData(outerData);
-            }
-        })
-    });
-})
-
-function renderWomenData(data,event){
-    $('.display').show();
-    $('#banner').hide();
-    $('#head_cont').hide();
-    // console.log(type[0])
-    data.women.map(loadImage =>
-            $('#inner_cont').append(`<div class='display'><img src='${loadImage.img}'></div>`));
-           $('.women').off('click');
-           $('.men_display').hide();
-           $('.baby_display').hide();
-           $('.all_display').hide(); 
-           
-}
-function renderMenData(data,event){
-    $('.men_display').show();
-    $('#banner').hide();
-    $('#head_cont').hide();
-    // console.log(type[0])
-    data.men.map(loadImage => 
-            $('#inner_cont').append(`<div class='men_display'><img src='${loadImage.img}'></div>`));
-           $('.men').off('click');  
-           $('.display').hide();
-           $('.baby_display').hide();
-           $('.all_display').hide();
-}
-function renderBabyData(data,event){
-    $('.baby_display').show();
-    $('#banner').hide();
-    $('#head_cont').hide();
-    // console.log(type[0])
-    data.baby.map(loadImage => 
-            $('#inner_cont').append(`<div class='baby_display'><img src='${loadImage.img}'></div>`));
-           $('.baby').off('click');  
-           $('.men_display').hide();
-           $('.display').hide();
-           $('.all_display').hide();
-}
-function renderAllData(data,event){
-    // console.log(type[0])
-
-    $('.all_display').show();
-    $('#banner').hide();
-    $('#head_cont').hide();
-    data.all.map(loadImage => 
-            $('#inner_cont').append(`<div class='all_display'><img src='${loadImage.img}'></div>`));
-           $('.all').off('click');  
-           $('.men_display').hide();
-           $('.display').hide();
-           $('.baby_display').hide();
-}
-
-$('#inner_cont').on('click','.display',function(){
-    alert('')
-});
+    function renderData(data,category){
+        $('#inner_nav').css({display:'none'});
+        $('.category-data').remove();
+        $('.title').remove();
+        $('.product-details').remove();
+        $('.product-menu').remove();
+        $('#banner').hide();
+        $('#head_cont').hide();
+        data.map(loadImage => {
+            $('#inner_cont').append(`<div class='category-data ${category}_display'><img src='${loadImage.img}'></div>`);
+            $('#sub_inner').append(
+                `<div class="top_head"><ul><li>Home</li><li>Women</li></ul>
+                 <h1 class='title'>${loadImage.h1}</h1>
+                 <span class ='product-details'>Showing Details<a href=#>Show all products</a></spn>
+                 <select class ='product-menu'>Search:<option>Featured Items</option>
+                 <option>New Items</option>
+                <option>Best Selling Items</option>
+                </select>
+                </div>`
+            );
+        });
+         
+    $('.category-data').on('click',function(){
+         
+    });        
+    }
+});  

@@ -183,8 +183,7 @@ float:left;
      position: relative;
      
  }
- 
- #inner_cont div{
+ #inner_cont .women_display,.men_display,.baby_display,.all_display{
     width:300px;
     height:200px;
     margin:5px;
@@ -192,10 +191,69 @@ float:left;
     position: relative;
      background-repeat:no-repeat;
     background-size:cover;
-    margin-top:50px;
+    margin-top:20px;
     box-shadow: 1px 2px 2px rgba(0,0,0,0.5)
  }
  #inner_cont div img{
      width:200px;
      height:150px;
  }
+ .top_head{
+    width:100%;
+    position:absolute;
+    top:10%;
+    left:33%;
+    z-index: 10000;
+}
+ 
+#sub_inner{
+    width:100%;
+    height:200px;
+    background:#fff;
+    position: relative;
+    overflow: hidden;
+}
+#sub_inner ul{
+    text-align: center
+;}
+#sub_inner ul li{
+  list-style-type: none;
+  float:left;
+  margin:5px;
+  margin-top:20px;
+  
+}
+#sub_inner h1{
+    margin:4px;
+    margin-top:40px;
+    padding:5px;
+    color:#ff471a;
+    text-transform:uppercase; 
+  }
+  #sub_inner span{
+    margin:4px;
+    margin-top:30px;
+    padding:5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color:#000;
+  }
+  #sub_inner span a{
+      text-decoration: none;
+      color:#000;
+      margin:4px;
+  }
+  .model-box{
+      width:100%;
+      position: fixed;
+      top:30%;
+      left:0;
+      bottom:0;
+      right:0;
+      height:100%;
+     background-color:#fff;
+     z-index:100000;    
+  }
+  #image-box{
+      float:left;
+  }
