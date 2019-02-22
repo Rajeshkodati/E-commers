@@ -17,177 +17,291 @@
     "name": "typicode"
   },
   "mommy": {
-    "men":[
-      {
-        "id": 1,
-        "img": ".assets/1.jpg",
-        "title": "t-shirts"
-      },
-      {
-        "id": 2,
-        "img": "./assets/2.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 3,
-        "img": "./assets/3.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 4,
-        "img": "./assets/4.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 5,
-        "img": "./assets/8.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 6,
-        "img": "./assets/5.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 7,
-        "img": "./assets/6.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 8,
-        "img": "./assets/7.png",
-        "title": "t-shirts"
-      }
-     
-    ],
-    "women":[
-      {
-        "id": 1,
-        "img": "./assets/1.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 2,
-        "img": "./assets/1.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 3,
-        "img": "./assets/1.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 4,
-        "img": "./assets/4.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 5,
-        "img": "./assets/8.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 6,
-        "img": "./assets/5.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 7,
-        "img": "./assets/6.png",
-        "title": "t-shirts"
-      },
-      {
-        "id": 8,
-        "img": "./assets/7.png",
-        "title": "t-shirts"
-      }    
-      ],
-      "baby":[
+      "men":[
         {
           "id": 1,
-          "img": "./assets/1.png",
-          "title": "t-shirts"
+          "img": "./assets/6.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+           "h1":"men"
+           
         },
         {
           "id": 2,
-          "img": "./assets/1.png",
-          "title": "t-shirts"
+          "img": "./assets/2.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 3,
-          "img": "./assets/1.png",
-          "title": "t-shirts"
+          "img": "./assets/3.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 4,
           "img": "./assets/4.png",
-          "title": "t-shirts"
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 5,
           "img": "./assets/8.png",
-          "title": "t-shirts"
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 6,
           "img": "./assets/5.png",
-          "title": "t-shirts"
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 7,
           "img": "./assets/6.png",
-          "title": "t-shirts"
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 8,
           "img": "./assets/7.png",
-          "title": "t-shirts"
-        }
-      ],
-      "all":[
-        {
-          "id": 1,
-          "img": "./assets/1.png",
-          "title": "t-shirts"
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 2,
-          "img": "./assets/1.png",
-          "title": "t-shirts"
+          "img": "./assets/2.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 3,
-          "img": "./assets/1.png",
-          "title": "t-shirts"
+          "img": "./assets/3.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 4,
           "img": "./assets/4.png",
-          "title": "t-shirts"
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 5,
           "img": "./assets/8.png",
-          "title": "t-shirts"
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 6,
           "img": "./assets/5.png",
-          "title": "t-shirts"
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 7,
           "img": "./assets/6.png",
-          "title": "t-shirts"
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         },
         {
           "id": 8,
           "img": "./assets/7.png",
-          "title": "t-shirts"
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"men"
         }
-      ]
-  
-  
-  }
+       
+      ],
+      "women":[
+        {
+          "id": 1,
+          "img": "./assets/4.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+           "h1":"women"
+        },
+        {
+          "id": 2,
+          "img": "./assets/2.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"women"
+        },
+        {
+          "id": 3,
+          "img": "./assets/2.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"women"
+        },
+        {
+          "id": 4,
+          "img": "./assets/4.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"women"
+        },
+        {
+          "id": 5,
+          "img": "./assets/8.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"women"
+        },
+        {
+          "id": 6,
+          "img": "./assets/5.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"women"
+        },
+        {
+          "id": 7,
+          "img": "./assets/6.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"women"
+        },
+        {
+          "id": 8,
+          "img": "./assets/7.png",
+          "title": "Mommy & Me Gray Set",
+          "price":"50$",
+          "h1":"women"
+        }    
+        ],
+        "baby":[
+          {
+            "id": 1,
+            "img": "./assets/2.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"baby"
+          },
+          {
+            "id": 2,
+            "img": "./assets/2.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"baby"
+          },
+          {
+            "id": 3,
+            "img": "./assets/2.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"baby"
 
+
+          },
+          {
+            "id": 4,
+            "img": "./assets/4.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"baby"
+          },
+          {
+            "id": 5,
+            "img": "./assets/8.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"baby"
+          },
+          {
+            "id": 6,
+            "img": "./assets/5.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"baby"
+          },
+          {
+            "id": 7,
+            "img": "./assets/6.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"baby"
+          },
+          {
+            "id": 8,
+            "img": "./assets/7.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"baby"
+          }
+        ],
+        "all":[
+          {
+            "id": 1,
+            "img": "./assets/5.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"all"
+          },
+          {
+            "id": 2,
+            "img": "./assets/2.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"all"
+          },
+          {
+            "id": 3,
+            "img": "./assets/2.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"all"
+          },
+          {
+            "id": 4,
+            "img": "./assets/4.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"all"
+          },
+          {
+            "id": 5,
+            "img": "./assets/8.png",
+            "title": "Mommy & Me Gray Set - Working/Playing Bee",
+            "price":"50$",
+            "h1":"all"
+          },
+          {
+            "id": 6,
+            "img": "./assets/5.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"all"
+          },
+          {
+            "id": 7,
+            "img": "./assets/6.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"all"
+          },
+          {
+            "id": 8,
+            "img": "./assets/7.png",
+            "title": "Mommy & Me Gray Set",
+            "price":"50$",
+            "h1":"all"
+          }
+        ]
+    
+      }   
 }

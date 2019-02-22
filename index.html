@@ -27,15 +27,16 @@
                 <a href="#"> <span>Mommy&Me</span></a>
                 <a href="#" class='inner_menu'> <span>Individual</span> </a>
                 <a href="#"> <span>Daddy&Me</span></a>
+                <div id ='inner_nav'>
+                        <ul>
+                            <li class='innernav all catagory' data-type="all">All Individual <span>|</span></li>
+                            <li class='innernav baby catagory'data-type="baby" >Baby/Toddler<span>|</span></li>
+                            <li class='innernav men catagory' data-type="men">Men <span>|</span></li>
+                            <li class='innernav women catagory' data-type="women">women</li>
+                        </ul> 
+                </div>
             </div>
-            <div id ='inner_nav'>
-                    <ul>
-                        <li class='innernav all catagory' data-type="all">All Individual <span>|</span></li>
-                        <li class='innernav baby catagory'data-type="baby" >Baby/Toddler<span>|</span></li>
-                        <li class='innernav men catagory' data-type="men">Men <span>|</span></li>
-                        <li class='innernav women catagory' data-type="women">women</li>
-                    </ul> 
-            </div> 
+             
           </header>
         </div>
       <section id='banner'>
@@ -56,24 +57,59 @@
             <div id='inner_cont'>
               <div id="sub_inner"></div>
             </div>
-            <div class="model-box">
-               <div>
-                   <span><a href ='#'>Home</a></span>
+            <div class="model-box">  
+                
+            </div> 
+            <div id='inner-model'>  
+               <div id='home_button'>
+                   <span><a href ='#' class='close-model'>Home</a></span>
                </div>
                <div id="image-box">
-                   <img src="assets/11.jpg">
+                   <div class='zoom-image'></div>
                </div>
-                    <h1 calss = 'title_head'>Title</h1>
+                  <div class='title_menu'>
+                    <h2 calss='title_head'>Title</h2>
                     <span>Price</span>
-               <div>
+                  </div>
+               <div class='deatils-product'>
                 <span>SKU:</span>
                 <span>CjB00</span>
                </div>
-               <div>
+               <div class='deatils-product'>
                     <span>Weight:</span>
                     <span>100lbs</span>
                </div>
-            </div>
+               <div class='deatils-product-size'>
+                  <span>Adult Size:<a href='#'>Reqired</a></span> 
+                  <select nmae='attribute' id="select-size">
+                    <option>Choose Options</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>x-Large</option>
+                  </select>
+                 </div>
+               <div  class='deatils-product-baby-size'>
+                <span>Child Size:<a href='#'>Reqired</a></span> 
+                <select nmae='attribute' id="select-size">
+                  <option>Choose Options</option>
+                  <option>6M BodySuit</option>
+                  <option>12M BodySuit</option>
+                  <option>18M BodySuit</option>
+                  <option>24M BodySuit</option>
+                </select>
+               </div>
+               <div class='quantity'>
+                <p>Quantity:</p>
+                   <button>+</button>
+                   <input type='tel' value="1";/>
+                   <button>-</button>
+               </div>
+               <div class='add-cart'>
+                   <button>Add to Cart</button>
+                   <button>Add to WhishList</button>
+               </div>
+            </div> 
         </sectipon>   
     </section>
     <script src='app.js'></script>
