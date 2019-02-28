@@ -21,7 +21,7 @@
         {
           "id": 1,
           "img": "./assets/6.png",
-          "title": "Mommy & Me Gray Set",
+          "title": "Me Gray Set",
           "price":"50$",
            "h1":"men"
            
@@ -29,7 +29,7 @@
         {
           "id": 2,
           "img": "./assets/2.png",
-          "title": "Mommy & Me Gray Set",
+          "title": "Mommy",
           "price":"50$",
           "h1":"men"
         },
@@ -188,7 +188,7 @@
           {
             "id": 1,
             "img": "./assets/2.png",
-            "title": "Mommy & Me Gray Set",
+            "title": "Me Gray Set",
             "price":"50$",
             "h1":"baby"
           },

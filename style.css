@@ -8,6 +8,7 @@
 #main{
     width:100%;
     background-color:#fff;
+    overflow: hidden;
 }
 #header{
     width:100%;
@@ -45,6 +46,88 @@
   position: absolute;
   left:40%;
 }
+.cart{
+    text-decoration:none;
+    color:#000;
+}
+.cart #cart-title{
+    clear:both;
+ color:#000;
+}
+.cart #cart-count{
+ color:#fff;
+ background:#000;
+ border-radius:100%;
+ padding:3px;
+ font-size:14px;
+}
+
+#cart-dialog-box{
+   width:100%;
+   max-width:300px;
+   top:7%;
+  position: absolute;
+  z-index: 20;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
+  background:#fff;
+  border:1px solid #e8e8e8;
+  outline: 0;
+  height:auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+#preview-cart{
+    list-style-type: none; 
+     margin:0px;
+    padding:0px;
+    width:100%;
+   
+}
+#preview-cart li{
+    border-bottom: 1px solid #e2e2e2;
+  
+}
+#preview-cart li{
+    width:100%;
+}
+
+#preview-cart li h4{
+    font-size:14px;
+    color:#f7c259;
+    text-align:center;
+    padding: 2px;
+}
+#preview-cart .add-cart-price{
+    font-size:15px;
+    color:#000;
+}
+#preview-cart .inner-image{
+    width:100px;
+    float:left;
+}
+.cart-button{
+    width:80%;
+    background:#ff471a;
+    border:none;
+    outline: none;
+    margin:5px;
+    padding:5px;
+    border-radius: 5px;
+    margin-left:30px;
+    color:#fff;
+}
+.box-arrow{
+    position: absolute;
+   width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #49494b;
+      top:-10%;
+    left:5%;
+}
+
 #bottom_nav{
     width:100%;
     background:#ff471a;
@@ -393,7 +476,7 @@ float:left;
     color:#ff471a;
 }
 .add-cart button:focus{
-    
+    overflow: hidden;
 }
 #home_button{
     text-align:center;
@@ -435,3 +518,68 @@ float:left;
     top:0;
     z-index: 10000;
 }
+#container1{
+    width:100%;
+    position: relative;
+    top:20px;
+}
+#infobar{
+    text-align:center;
+    width:100%;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:#ff471a
+}
+#infobar::before{
+  content: '';
+  border-top:1px solid #ccc;
+  width:32%;
+  position: absolute;
+  left:9%;
+  top:45%;
+}
+
+#infobar::after{
+ content: '';
+ border-top:1px solid #ccc;
+ width:31%;
+ position: absolute;
+ right:10%;
+ top:45%;
+}   
+#subinfo{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left:10%;
+}
+
+#subinfo div{
+ width:200px;
+ height:200px;
+ margin:5px;
+ 
+}
+#container1 li{
+    list-style-type: none;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff471a;
+}
+ #container li{
+     background-color: transparent;
+     line-height: inherit;
+
+ }
+ #connect li{
+     width:30px;
+     height:25px;
+     float: left;
+ }
+ #subsrcibe #sss{
+  background:#f00;
+  text-align: center;
+ }

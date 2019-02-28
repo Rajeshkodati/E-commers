@@ -17,7 +17,15 @@
                       <li>Gift Certficates <span>|</span></li>
                       <li>Sign In/Register <span>|</span></li>
                       <li>Whislist <span>|</span></li>
-                      <li>Cart</li>
+                      <li><a href ='#' class='cart'><span id='cart-title'>Cart</span>
+                        <span id='cart-count'>0</span></a>
+                        <div id='cart-dialog-box'>
+                            <div class='box-arrow'></div>
+                            <ul id='preview-cart'></ul>
+                            <button class='cart-button'>Poceed Checkout</button>
+                            <button class='cart-button'>view Cart</button>
+                        </div>
+                    </li>
                   </ul>
               </div>
             <div id='logo'>
@@ -41,7 +49,7 @@
         </div>
       <section id='banner'>
           <div>
-              <img src="banner1.jpg" alt="">
+              <img id ='banner-img' src="banner1.jpg" alt="">
               <button class='prev'> > </button>
               <button class='next'> > </button>
               <ul>
@@ -65,11 +73,11 @@
                    <span><a href ='#' class='close-model'>Home</a></span>
                </div>
                <div id="image-box">
-                   <div class='zoom-image'></div>
+                   <!-- <div class='zoom-image'></div> -->
                </div>
                   <div class='title_menu'>
-                    <h2 calss='title_head'>Title</h2>
-                    <span>Price</span>
+                    <!-- <h2 calss='title_head'>Title</h2>
+                    <span>Price</span> -->
                   </div>
                <div class='deatils-product'>
                 <span>SKU:</span>
@@ -81,36 +89,94 @@
                </div>
                <div class='deatils-product-size'>
                   <span>Adult Size:<a href='#'>Reqired</a></span> 
-                  <select nmae='attribute' id="select-size">
-                    <option>Choose Options</option>
-                    <option>Small</option>
-                    <option>Medium</option>
-                    <option>Large</option>
-                    <option>x-Large</option>
+                  <select name='attribute' id="select-size" required>
+                    <option value="">Choose Options</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="x-large">x-Large</option>
                   </select>
                  </div>
-               <div  class='deatils-product-baby-size'>
+               <div  class='deatils-product-baby-size' required>
                 <span>Child Size:<a href='#'>Reqired</a></span> 
-                <select nmae='attribute' id="select-size">
-                  <option>Choose Options</option>
-                  <option>6M BodySuit</option>
-                  <option>12M BodySuit</option>
-                  <option>18M BodySuit</option>
-                  <option>24M BodySuit</option>
+                <select nmae='attribute' id="select-product">
+                  <option value=''>Choose Options</option>
+                  <option value='6M BodySuit'>6M BodySuit</option>
+                  <option value='12M BodySuit'>12M BodySuit</option>
+                  <option value='18M BodySuit'>18M BodySuit</option>
+                  <option value='24M BodySuit'>24M BodySuit</option>
                 </select>
                </div>
                <div class='quantity'>
                 <p>Quantity:</p>
-                   <button>+</button>
-                   <input type='tel' value="1";/>
-                   <button>-</button>
+                   <button id='item-increase'>+</button>
+                   <input type='tel' value="1" id='item-quentity';/>
+                   <button id='item-decrease'>-</button>
                </div>
                <div class='add-cart'>
-                   <button>Add to Cart</button>
-                   <button>Add to WhishList</button>
+                   <button id='add-cart'>Add to Cart</button>
+                   <button id='add-whishlist'>Add to WhishList</button>
                </div>
             </div> 
         </sectipon>   
+        <section id='container1'>
+            <h1 id='infobar'>INFO BAR</h1>
+            <div id='subinfo'>
+                
+                <div id="navigate">
+                    <ul class="one">
+                        <li><h4>NAVIGATE</h4></li>
+                        <li>Home</li>
+                        <li>About us</li>
+                        <li>Blog</li>
+                        <li>Shipping &Returns</li>
+                        <li>Terms& Privacy Policy</li>
+                        <li>Contact us</li>
+                        <li>Site map</li>
+                     </ul>   
+                 </div> 
+                 <div id="categories">
+                     <ul class="two">
+                         <l1><h4>CATEGORIES</h4></l1>
+                         <li>Mommy & Me</li>
+                         <li>individual</li>
+                         <li>Daddy & Me</li>
+                     </ul>
+                 </div> 
+                 <div id="info">
+                     <ul class="three">
+                         <li><h4>INFO</h4></li>
+                         <li>BAY AREA,CA</li>
+                     </ul>
+                 </div>
+                 <div id="connect">
+                     <ul class="social">
+                         <li>
+                             <img src="./assets/twitter.png">
+                         </li>
+                         <li>
+                             <img src="./assets/fb.jpg">
+                         </li>
+                         <li>
+                             <img src="./assets/insta.jpg">
+                         </li>
+                     </ul>
+                 </div>
+                 <div id="subsrcibe">
+                     <ul>
+                         <li><h4>SUBSCRIBE TO OUR NEWSLETTER</h4></li>
+                         <li><h5>Get the latest updates on new product and upcoming sales</h5></li>
+                         <li>
+                             <input type="text" id="email" placeholder="Your email address">
+                         </li>
+                         
+
+                     </ul>
+                 </div>
+
+                </div> 
+        </section>
+
     </section>
     <script src='app.js'></script>
 </body>
