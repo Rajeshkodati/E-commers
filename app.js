@@ -168,7 +168,15 @@ $(document).ready(function(){
     
    addItemIncrease(); 
    $('#cart-title').on('click',function(){
-      $('#cart-dialog-box').show();
+       let opens = false
+        if(opens === false){
+            $('#cart-dialog-box').css({display:'block'});
+            return opens = true;
+        }else{
+           return opens = false
+            $('#cart-dialog-box').css({display:'none'})
+        }
+     
    });
    $('.viewcart').on('click',function(){
        alert('');
